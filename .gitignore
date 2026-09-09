@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Runtime databases / user data
+*.db
+*.sqlite
+*.sqlite3
+chat_users.db
+web_profile/
+cookies/
+sessions/
+
+# BUKKAX runtime
+updates/
+version.txt
+builder_config_server.json
+update_log.txt
+clipboard_temp/
+url_images/
+*_temp/
+temp/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+config.json
+config.local.json
+secrets.json
+
+# Update leftovers
+*.new
+*.download
+_update*.bat
+_update*.py
+
+# Backups
+*.bak
+*.bak_*
+*.bak*
+*~ 
+
+# Logs / crash dumps
+*.log
+client_crash.txt
+*.dmp
+
+# Local Developer Studio scripts/config
+dev_scripts/
+developer_scripts/
+bukkax_builder_config.local.json
+
+# Generated project staging
+BUKKAX_GITHUB_READY/

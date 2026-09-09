@@ -1,0 +1,15 @@
+BUKKAX GitHub staging report
+
+client_qt.py: SERVER_IP -> environment variable
+copied: client_qt.py
+copied: server.py
+copied: protocol.py
+copied: bukkax_chess_qt.py
+copied: bukkax_dev_builder.py
+copied: bukkax_builder_sync.py
+copied: bukkax_screen_share.py
+copied: bukkax_call_quality.py
+copied: music_player.py
+copied assets: bukkax_chess_assets
+
+IMPORTANT: run `python scripts/prepublish_check.py .` inside this folder before pushing.

@@ -1,0 +1,4 @@
+# Optional features used by some BUKKAX builds.
+numpy>=1.26
+opencv-python>=4.9
+pyrnnoise
